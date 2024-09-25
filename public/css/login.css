@@ -1,0 +1,40 @@
+body {
+    padding-top: 80px;
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: #59d367;
+    border-color: #ffffff;
+    color: #ffffff;
+    display: block;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: #3fe516;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.btn:active {
+    background-color: #2b9f14 !important;
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+}
+.form-group{
+    justify-content: center;
+    align-items: start;
+    display: grid;
+}
+.form-control{
+    width: 500px;
+}
+
+#memeLogin {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 80px;
+    font-size: 30px;
+    font-weight: bold;
+}

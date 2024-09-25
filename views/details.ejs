@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Meme Details</title>
+  <%- include('./partials/head.ejs') %>
+</head>
+
+<body class="position-relative" data-bs-spy="scroll" style="background-color: rgb(210, 238, 241);">
+  <%- include('./partials/navbar.ejs') %>
+    <section class="container">
+      <p>ID: <%= details[0].id %></p>
+      <p>Name: <%= details[0].name %></p>
+      <p>Width: <%= details[0].width %></p>
+      <p>Height: <%= details[0].height %></p>
+      <p>URL: <%= details[0].url %></p>
+      <p>Image: <br/> <img src="<%= details[0].url %>" alt="<%= details[0].name %>" height="100%" width="100%"></p>
+    </section>
+    <%- include('./partials/scripts.ejs') %>
+</body>
+
+</html>

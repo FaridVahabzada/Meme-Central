@@ -1,0 +1,25 @@
+th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    line-height: 175%;
+    border-color: black;
+    border-bottom: 0px;
+    border-top-width: 0px;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    line-height: 175%;
+    border-color: black;
+    border-bottom: 0px;
+    border-top-width: 1px;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
